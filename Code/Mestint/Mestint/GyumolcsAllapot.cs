@@ -19,6 +19,7 @@ namespace Mestint
         int alma;
         int korte;
         int barack;
+        int iter = 0;
         public GyumolcsAllapot(int alma, int korte, int barack)
         {
             this.alma = alma;
@@ -115,6 +116,7 @@ namespace Mestint
 
             if (AllapotE())
             {
+                iter++;
                 return true;
             }
             alma = mentes.alma;
@@ -124,7 +126,7 @@ namespace Mestint
         }
         public override string ToString()
         {
-            return "Alma:" + alma + " Körte:" + korte + " Barack:" + barack;
+            return "Alma:" + alma + " Körte:" + korte + " Barack:" + barack + " Iteráció:"+ iter;
         }
 
         public override bool Equals(object a)

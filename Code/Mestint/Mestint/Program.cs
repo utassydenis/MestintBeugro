@@ -12,15 +12,27 @@ namespace Mestint
         {
             Csucs startCsucs;
             GrafKereso kereso;
-            Console.WriteLine("Teszt");
+
             startCsucs = new Csucs(new GyumolcsAllapot(13, 46, 59));
 
+            Console.WriteLine("Backtrack");
             kereso = new BackTrack(startCsucs,true);
             kereso.megoldasKiirasa(kereso.Kereses());
+
             Console.Read();
-            Console.WriteLine("Teszt2");
+
+            Console.WriteLine("\nMélységi keresés");
             kereso = new MelysegiKereses(startCsucs,true);
             kereso.megoldasKiirasa(kereso.Kereses());
+
+            Console.ReadKey();
+
+            Console.WriteLine("\nSzélességi keresés");
+            kereso = new SzelessegiKereses(startCsucs, true);
+            kereso.megoldasKiirasa(kereso.Kereses());
+
+            Console.ReadKey();
+
 
         }
     }

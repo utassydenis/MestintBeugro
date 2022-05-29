@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Denis Utassy\\Desktop\\Mestint\\Mestint\\Mestint.csproj": {}
+    "C:\\Users\\Denis Utassy\\Desktop\\MestintBeugro\\Code\\Mestint\\Mestint\\Mestint.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Denis Utassy\\Desktop\\Mestint\\Mestint\\Mestint.csproj": {
+    "C:\\Users\\Denis Utassy\\Desktop\\MestintBeugro\\Code\\Mestint\\Mestint\\Mestint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Denis Utassy\\Desktop\\Mestint\\Mestint\\Mestint.csproj",
+        "projectUniqueName": "C:\\Users\\Denis Utassy\\Desktop\\MestintBeugro\\Code\\Mestint\\Mestint\\Mestint.csproj",
         "projectName": "Mestint",
-        "projectPath": "C:\\Users\\Denis Utassy\\Desktop\\Mestint\\Mestint\\Mestint.csproj",
+        "projectPath": "C:\\Users\\Denis Utassy\\Desktop\\MestintBeugro\\Code\\Mestint\\Mestint\\Mestint.csproj",
         "packagesPath": "C:\\Users\\Denis Utassy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Denis Utassy\\Desktop\\Mestint\\Mestint\\obj\\",
+        "outputPath": "C:\\Users\\Denis Utassy\\Desktop\\MestintBeugro\\Code\\Mestint\\Mestint\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
